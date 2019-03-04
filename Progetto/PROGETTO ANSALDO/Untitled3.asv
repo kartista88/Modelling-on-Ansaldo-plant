@@ -1,0 +1,14 @@
+clc
+clear
+close all
+
+randn('seed',13);
+
+n = 50;
+y_e = randn(50,1).*3;
+
+figure;
+hold on; box on;
+plot(y_e','og')
+
+y_real = 1:50; y_
